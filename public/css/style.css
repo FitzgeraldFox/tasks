@@ -1,0 +1,134 @@
+.taskListWrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    padding: 20px;
+}
+
+.search input {
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+.taskList table {
+    margin-bottom: 0;
+}
+
+.pagination_wrap {
+    text-align: center;
+}
+.taskList table tbody td, .taskList table tbody th{text-align: center;}
+.taskList table tbody th:first-child {width: 50px;}
+.taskList table tbody td:nth-child(3) {width: 200px;}
+
+.taskList thead th {
+    text-align: center;
+}
+
+.taskList tr {
+    cursor: pointer;
+}
+
+.table-hover>tbody>tr:hover, .table>tbody>tr.active>td, .table>tbody>tr.active>th, .table>tbody>tr>td.active, .table>tbody>tr>th.active, .table>tfoot>tr.active>td, .table>tfoot>tr.active>th, .table>tfoot>tr>td.active, .table>tfoot>tr>th.active, .table>thead>tr.active>td, .table>thead>tr.active>th, .table>thead>tr>td.active, .table>thead>tr>th.activer {
+    background-color: #3097d1;
+    color: #fff;
+}
+
+.close {
+    font-size: 40px;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.close span {
+    width: 25px;
+    height: 25px;
+}
+
+.modal-header {
+    position: relative;
+    text-align: center;
+}
+
+.taskInfoItem label {
+    min-width: 150px;
+}
+
+.taskInfoItem > * {
+    display: inline-block;
+}
+
+.taskModal .modal-footer {
+    text-align: center;
+}
+
+#taskModalPreloader {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.taskModal .modal-content {
+    position: relative;
+}
+
+.search button[type=submit] {
+    background-color: #fff;
+    border: 1px solid #ccd0d2;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 2px 5px;
+    transition: background-color .1s ease-in;
+}
+
+.search i {
+    font-size: 28px;
+}
+
+.search button[type=submit]:hover {
+    background-color: rgba(128, 128, 128, 0.25);
+}
+
+.search form > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.search form {
+    text-align: center;
+    min-width: 292px;
+}
+
+.taskListWrap .search h1 {
+    text-align: center;
+}
+
+#clearTaskCache {
+    display: none;
+}
+
+.taskListWrap .search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchHeader{
+    text-align: center;
+}
+
+.cached {
+    background-color: #d0eeff;
+}
